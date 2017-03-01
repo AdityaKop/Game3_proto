@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Controllers\VisibilityController.cs">
+    <Files>
+      <File FileName="Assets\Controllers\CameraController.cs" Line="7" Column="2" />
+      <File FileName="Assets\Controllers\DoorController.cs" Line="25" Column="25" />
+      <File FileName="Assets\Controllers\PlayerController.cs" Line="10" Column="3" />
+      <File FileName="Assets\Controllers\VisibilityController.cs" Line="21" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
