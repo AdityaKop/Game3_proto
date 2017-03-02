@@ -21,19 +21,19 @@ public class DoorController : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other) {
 		//other.transform.position = partner.transform.position + offset;
-		if (canTP)
-			popup.enabled = true;
+		//if (canTP)
+		popup.enabled = true;
 	}
 
 	void OnTriggerStay2D(Collider2D other) {
-		if (Input.GetKeyDown(KeyCode.Space) && canTP) {
+		if (Input.GetKeyDown(KeyCode.Space)) {
 			other.transform.position = partner.transform.position;
-			partner.GetComponent<DoorController>().canTP = false;
+			//partner.GetComponent<DoorController>().canTP = false;
 		}
 	}
 
 	void OnTriggerExit2D(Collider2D other) {
 		popup.enabled = false;
-		canTP = true;
+		//canTP = true;
 	}
 }
