@@ -63,8 +63,8 @@ public class PlayerController : MonoBehaviour {
 		anim.SetFloat ("LastMoveY", vertInput);
 	}
 
-	void OnTriggerEnter2D(Collider2D other)
+	/*void OnTriggerEnter2D(Collider2D other)
 	{
 		Debug.Log ("test");
-	}
+	}*/
 }
