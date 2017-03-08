@@ -17,8 +17,10 @@ public class ButtonController : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		GetComponent<AudioSource>().Play ();
-		anim.SetBool ("isPressed", !anim.GetBool ("isPressed"));
-		pairGate.GetComponent<GateController>().Toggle();
+		if (other.CompareTag (tag)) {
+			GetComponent<AudioSource> ().Play ();
+			anim.SetBool ("isPressed", !anim.GetBool ("isPressed"));
+			pairGate.GetComponent<GateController> ().Toggle ();
+		}
 	}
 }
