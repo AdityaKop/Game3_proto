@@ -13,6 +13,15 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void Update () {
+		if (Input.GetKeyDown ("space")) {
+			if (tag == "Blue")
+				tag = "Red";
+			else if (tag == "Red")
+				tag = "Yellow";
+			else
+				tag = "Blue";
+			Debug.Log (tag);
+		}
 		float InputX = Input.GetAxisRaw ("Horizontal");
 		float InputY = Input.GetAxisRaw ("Vertical");
 

@@ -5,7 +5,6 @@ using UnityEngine;
 public class GateController : MonoBehaviour {
 	Animator anim;
 	BoxCollider2D coll;
-	public GameObject pairButton;
 
 	// Use this for initialization
 	void Start () {
