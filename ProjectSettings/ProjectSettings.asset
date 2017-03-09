@@ -452,8 +452,9 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudServicesEnabled:
+    UNet: 1
+  cloudProjectId: 16fe4dd1-49d7-44b9-9cd3-8cbf9fe4148f
+  projectName: Game3_Proto
+  organizationId: plewwatson
   cloudEnabled: 0

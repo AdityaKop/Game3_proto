@@ -7,19 +7,154 @@ Direct3D:
     VRAM:     2111 MB
     Driver:   20.19.15.4463
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\PlewW\Desktop\Game3_proto-master\ColorQuest_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\PlewW\Desktop\Game3_proto-master\ColorQuest_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\PlewW\Desktop\Game3_proto-master\ColorQuest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\PlewW\Desktop\Game3_proto-master\ColorQuest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\PlewW\Desktop\Game3_proto-master\ColorQuest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\PlewW\Desktop\Game3_proto-master\ColorQuest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\PlewW\Desktop\Game3_proto-master\ColorQuest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\PlewW\Desktop\Game3_proto-master\ColorQuest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\PlewW\Desktop\Game3_proto-master\ColorQuest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\PlewW\Desktop\Game3_proto-master\ColorQuest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.050 seconds
-Platform assembly: C:\Users\PlewW\Desktop\Game3_proto-master\ColorQuest_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\PlewW\Desktop\Game3_proto-master\ColorQuest_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.047 seconds
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\System.dll (this message is harmless)
 desktop: 2736x1824 60Hz; virtual: 2736x1824 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.862493 ms
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) Iris(TM) Graphics 540 (ID=0x1926)
+    Vendor:   Intel
+    VRAM:     2111 MB
+    Driver:   20.19.15.4463
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.046 seconds
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\System.dll (this message is harmless)
+desktop: 2736x1824 60Hz; virtual: 2736x1824 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 4.859364 ms
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) Iris(TM) Graphics 540 (ID=0x1926)
+    Vendor:   Intel
+    VRAM:     2111 MB
+    Driver:   20.19.15.4463
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.039 seconds
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\PlewW\OneDrive\ICS 161\Game3_proto\ColorQuest_Data\Managed\System.dll (this message is harmless)
+desktop: 2736x1824 60Hz; virtual: 2736x1824 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.261218 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.121860 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 785.
+Total: 1.319420 ms (FindLiveObjects: 0.060289 ms CreateObjectMapping: 0.070492 ms MarkObjects: 1.128348 ms  DeleteObjects: 0.059826 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 18.083717 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 785.
+Total: 1.093101 ms (FindLiveObjects: 0.057971 ms CreateObjectMapping: 0.034782 ms MarkObjects: 0.978087 ms  DeleteObjects: 0.021797 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.582266 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 785.
+Total: 1.366725 ms (FindLiveObjects: 0.046376 ms CreateObjectMapping: 0.033855 ms MarkObjects: 1.264696 ms  DeleteObjects: 0.020405 ms)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.819942 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1325.
+Total: 2.928697 ms (FindLiveObjects: 0.160927 ms CreateObjectMapping: 0.109913 ms MarkObjects: 2.639305 ms  DeleteObjects: 0.018086 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.625623 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1305.
+Total: 2.144464 ms (FindLiveObjects: 0.164173 ms CreateObjectMapping: 0.081159 ms MarkObjects: 1.887537 ms  DeleteObjects: 0.011130 ms)
+
+UnloadTime: 0.573217 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1305.
+Total: 2.011363 ms (FindLiveObjects: 0.129855 ms CreateObjectMapping: 0.106202 ms MarkObjects: 1.763247 ms  DeleteObjects: 0.010202 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1468 -> priority: 1 
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2c0c -> priority: 1 
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:65019}
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2bcc -> priority: 1 

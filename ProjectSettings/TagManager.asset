@@ -8,6 +8,9 @@ TagManager:
   - Red
   - Blue
   - Yellow
+  - BluePlayer
+  - RedPlayer
+  - YellowPlayer
   layers:
   - Default
   - TransparentFX
