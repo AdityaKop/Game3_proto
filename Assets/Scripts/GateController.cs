@@ -5,11 +5,14 @@ using UnityEngine;
 public class GateController : MonoBehaviour {
 	Animator anim;
 	BoxCollider2D coll;
+	public bool startOpen;
 
 	// Use this for initialization
 	void Start () {
 		anim = gameObject.GetComponent<Animator> ();
 		coll = gameObject.GetComponent<BoxCollider2D> ();
+		if (startOpen)
+			Toggle ();
 	}
 	
 	// Update is called once per frame
