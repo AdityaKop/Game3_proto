@@ -17,7 +17,7 @@ public class ButtonController : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		if (other.CompareTag (tag)) {
+		if (CompareTag (other.GetComponent<SetupLocalPlayer>().colorString)) {
 			GetComponent<AudioSource> ().Play ();
 			anim.SetBool ("isPressed", !anim.GetBool ("isPressed"));
 			pairGate.GetComponent<GateController> ().Toggle ();

@@ -1,32 +1,36 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class PlayerMovementController : MonoBehaviour {
+public class PlayerMovementController : NetworkBehaviour {
 
 	Animator anim;
-	public Vector3 startPosition;
 
 	void Start () {
-		startPosition = transform.position;
-		anim = gameObject.GetComponent<Animator> ();
+		if (isLocalPlayer) {
+			anim = gameObject.GetComponent<Animator> ();
+		}
 	}
 
 	void Update () {
+
+		if (!isLocalPlayer) {
+			return;
+		}
+
 		float InputX = Input.GetAxisRaw ("Horizontal");
 		float InputY = Input.GetAxisRaw ("Vertical");
 
-		Vector3 movement = new Vector3 (
-			2 * InputX,
-			2 * InputY,
-			0);
+		Vector3 movement = new Vector3 (2 * InputX, 2 * InputY, 0);
 
 		movement *= Time.deltaTime;
 
-		if (Input.GetButton ("Horizontal") || Input.GetButton ("Vertical")) {
+		if (InputX != 0 || InputY != 0) {
 			anim.SetBool ("isWalking", true);
-			setPlayerDirectionAnim(InputX, InputY);
-		} else {
+			setPlayerDirectionAnim (InputX, InputY);
+		}
+		else {
 			anim.SetBool ("isWalking", false);
 		}
 
@@ -34,6 +38,11 @@ public class PlayerMovementController : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
+
+		if (!isLocalPlayer) {
+			return;
+		}
+
 		float lastInputX = Input.GetAxisRaw ("Horizontal");
 		float lastInputY = Input.GetAxisRaw ("Vertical");
 
@@ -55,7 +64,7 @@ public class PlayerMovementController : MonoBehaviour {
 			anim.SetBool ("isWalking", false);
 		}
 	}
-
+		
 	void setPlayerDirectionAnim(float horizInput, float vertInput) {
 		anim.SetFloat ("SpeedX", horizInput);
 		anim.SetFloat ("SpeedY", vertInput);
