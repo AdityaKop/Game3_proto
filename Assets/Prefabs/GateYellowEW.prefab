@@ -54,9 +54,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0.03906107, y: 0}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.060397536, y: 0.54}
+  m_Size: {x: 0.55, y: 0.1}
 --- !u!95 &95117246375845878
 Animator:
   serializedVersion: 3
@@ -85,7 +85,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc433aa9bd7d6d45a8b4db2f1617f9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pairButton: {fileID: 0}
+  startOpen: 0
 --- !u!212 &212769733392394426
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -117,7 +117,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a20918293509b2847be26a5e69e431ee, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0f28553881f0a9942a7ccea37c717a9c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

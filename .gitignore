@@ -34,5 +34,5 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-/ColorQuest_Data/
+/ColorQuest_Data/*
 *.exe
