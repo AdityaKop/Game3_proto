@@ -6,11 +6,19 @@ using UnityEngine.Networking;
 public class PlayerMovementController : NetworkBehaviour {
 
 	Animator anim;
+	Rigidbody2D rb2d;
+
+	private float walkSpeed;
+	private float maxSpeed;
+	private float curSpeed;
 
 	void Start () {
 		if (isLocalPlayer) {
 			anim = gameObject.GetComponent<Animator> ();
+			rb2d = gameObject.GetComponent<Rigidbody2D> ();
 		}
+
+		walkSpeed = 2500f;
 	}
 
 	void Update () {
@@ -22,10 +30,6 @@ public class PlayerMovementController : NetworkBehaviour {
 		float InputX = Input.GetAxisRaw ("Horizontal");
 		float InputY = Input.GetAxisRaw ("Vertical");
 
-		Vector3 movement = new Vector3 (2 * InputX, 2 * InputY, 0);
-
-		movement *= Time.deltaTime;
-
 		if (InputX != 0 || InputY != 0) {
 			anim.SetBool ("isWalking", true);
 			setPlayerDirectionAnim (InputX, InputY);
@@ -33,8 +37,6 @@ public class PlayerMovementController : NetworkBehaviour {
 		else {
 			anim.SetBool ("isWalking", false);
 		}
-
-		transform.Translate(movement);
 	}
 
 	void FixedUpdate () {
@@ -63,6 +65,11 @@ public class PlayerMovementController : NetworkBehaviour {
 		} else {
 			anim.SetBool ("isWalking", false);
 		}
+
+		curSpeed = walkSpeed;
+
+		rb2d.velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal")* Time.deltaTime * curSpeed, 0.8f),
+			Mathf.Lerp(0, Input.GetAxis("Vertical")* Time.deltaTime * curSpeed, 0.8f));
 	}
 		
 	void setPlayerDirectionAnim(float horizInput, float vertInput) {

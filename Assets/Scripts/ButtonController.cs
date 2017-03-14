@@ -15,9 +15,6 @@ public class ButtonController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		/*if (rend.material.color.a < 0.99) {
-			rend.material.color += new Color (0f, 0f, 0f, 0.1f);
-		}*/
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
@@ -25,7 +22,6 @@ public class ButtonController : MonoBehaviour {
 			GetComponent<AudioSource> ().Play ();
 			anim.SetBool ("isPressed", !anim.GetBool ("isPressed"));
 			pairGate.GetComponent<GateController> ().Toggle ();
-			//rend.material.color -= new Color (0f, 0f, 0f, 0.9f);
 		}
 	}
 }
