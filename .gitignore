@@ -33,3 +33,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+/ColorQuest_Data/
+*.exe
