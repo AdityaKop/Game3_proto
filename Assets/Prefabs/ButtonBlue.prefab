@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 114954124357747266}
   - component: {fileID: 95353559611900216}
   - component: {fileID: 82074340570242120}
+  - component: {fileID: 114983176978773724}
   m_Layer: 0
   m_Name: ButtonBlue
   m_TagString: Blue
@@ -69,7 +70,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 228484984a510604999e59b06fa0f1ca, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.3
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -167,6 +168,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pairGate: {fileID: 0}
+--- !u!114 &114983176978773724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179138782104682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 57
+    i1: 246
+    i2: 96
+    i3: 58
+    i4: 30
+    i5: 187
+    i6: 178
+    i7: 132
+    i8: 248
+    i9: 70
+    i10: 153
+    i11: 43
+    i12: 31
+    i13: 160
+    i14: 214
+    i15: 139
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!212 &212528073440231454
 SpriteRenderer:
   m_ObjectHideFlags: 1
