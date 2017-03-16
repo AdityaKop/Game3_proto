@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pairGate: {fileID: 0}
+  trail: {fileID: 1660980798937448, guid: f966590704df9fd4c851da219822a51f, type: 2}
 --- !u!114 &114983176978773724
 MonoBehaviour:
   m_ObjectHideFlags: 1

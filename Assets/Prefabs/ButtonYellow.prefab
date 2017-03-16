@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pairGate: {fileID: 0}
+  trail: {fileID: 1106354032871824, guid: 7710ca4ece97c9044b7f9dd800920a74, type: 2}
 --- !u!212 &212283216565020130
 SpriteRenderer:
   m_ObjectHideFlags: 1

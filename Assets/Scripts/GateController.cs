@@ -1,17 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class GateController : MonoBehaviour {
+public class GateController : NetworkBehaviour {
 	Animator anim;
 	BoxCollider2D coll;
-	public bool startOpen;
+
+	[SyncVar]
+	public bool open;
 
 	// Use this for initialization
 	void Start () {
 		anim = gameObject.GetComponent<Animator> ();
 		coll = gameObject.GetComponent<BoxCollider2D> ();
-		if (startOpen)
+		if (open)
 			Toggle ();
 	}
 	
@@ -21,7 +24,8 @@ public class GateController : MonoBehaviour {
 	}
 
 	public void Toggle() {
-		anim.SetBool ("isOpen", !anim.GetBool ("isOpen"));
-		coll.enabled = !coll.enabled;
+		open = !open;
+		anim.SetBool ("isOpen", open);
+		coll.enabled = !open;
 	}
 }
