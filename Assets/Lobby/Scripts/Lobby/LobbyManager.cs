@@ -55,6 +55,7 @@ namespace Prototype.NetworkLobby
 
         void Start()
         {
+
             s_Singleton = this;
             _lobbyHooks = GetComponent<Prototype.NetworkLobby.LobbyHook>();
             currentPanel = mainMenuPanel;
@@ -160,9 +161,20 @@ namespace Prototype.NetworkLobby
         public BackButtonDelegate backDelegate;
         public void GoBackButton()
         {
+			Debug.Log("Is this getting called");
+//			if (topPanel.isInGame) {
+//				Debug.Log ("Is this getting called");
+//				SceneManager.LoadSceneAsync (1, LoadSceneMode.Single);
+//			}
             backDelegate();
 			topPanel.isInGame = false;
         }
+
+		public void QuitGame()
+		{
+			SceneManager.LoadSceneAsync (0, LoadSceneMode.Single);
+			Destroy (gameObject);
+		}
 
         // ----------------- Server management
 
