@@ -11,6 +11,7 @@ TagManager:
   - BluePlayer
   - RedPlayer
   - YellowPlayer
+  - WinBox
   layers:
   - Default
   - TransparentFX

@@ -38,6 +38,8 @@ namespace Prototype.NetworkLobby
         public Text statusInfo;
         public Text hostInfo;
 
+		private NetworkLobby.LobbyManager Instance;
+
         //Client numPlayers from NetworkManager is always 0, so we count (throught connect/destroy in LobbyPlayer) the number
         //of players, so that even client know how many player there is.
         [HideInInspector]
@@ -53,8 +55,27 @@ namespace Prototype.NetworkLobby
 
         protected LobbyHook _lobbyHooks;
 
+		void OnServerReady()
+		{
+			s_Singleton = this;
+			_lobbyHooks = GetComponent<Prototype.NetworkLobby.LobbyHook>();
+			currentPanel = mainMenuPanel;
+
+			backButton.gameObject.SetActive(false);
+			GetComponent<Canvas>().enabled = true;
+
+			DontDestroyOnLoad(gameObject);
+
+			SetServerInfo("Offline", "None");
+		}
+
         void Start()
         {
+			if (Instance != null) {
+				Destroy (Instance);
+			}
+
+			Instance = this;
 
             s_Singleton = this;
             _lobbyHooks = GetComponent<Prototype.NetworkLobby.LobbyHook>();
