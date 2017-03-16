@@ -7,6 +7,7 @@ public class PlayerMovementController : NetworkBehaviour {
 
 	Animator anim;
 	Rigidbody2D rb2d;
+	//public GameObject trail;
 
 	private float walkSpeed;
 	private float maxSpeed;
@@ -17,6 +18,7 @@ public class PlayerMovementController : NetworkBehaviour {
 			anim = gameObject.GetComponent<Animator> ();
 			rb2d = gameObject.GetComponent<Rigidbody2D> ();
 		}
+		//Instantiate (trail, new Vector3(transform.position.x, transform.position.y, transform.position.z) , Quaternion.identity, transform);
 
 		walkSpeed = 2500f;
 	}
